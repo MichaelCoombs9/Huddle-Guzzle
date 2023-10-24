@@ -78,6 +78,24 @@ let prompts: [GamePrompt] = [
     GamePrompt(category: .nextPlay, prompt: "Drink For Every Remaining Yard On The Current Down. \n\nIf Its Over Eight...Just Go Ahead And Finish Your Drink.", action: "1 Drink"),
     GamePrompt(category: .nextPlay, prompt: "If The Game Clock Is Less Than Two Minutes", action: "Finish Your Drink"),
     GamePrompt(category: .nextPlay, prompt: "If The Game Clock Is Less Than Six Minutes", action: "3 Drinks"),
+    GamePrompt(category: .wildCard, prompt: "Drink If One Of The Teams Playing Is Wearing Red", action: "1 Drink"),
+    GamePrompt(category: .wildCard, prompt: "Drink If One Of The Teams Playing Is Wearing Blue", action: "1 Drink"),
+    GamePrompt(category: .wildCard, prompt: "Drink If One Of The Teams Playing Is Wearing Green", action: "1 Drink"),
+    GamePrompt(category: .wildCard, prompt: "Drink If One Of The Teams Playing Is Wearing Black", action: "1 Drink"),
+    GamePrompt(category: .wildCard, prompt: "Drink For Every Fantasy Player You Have On The Field", action: "1 Drink"),
+    GamePrompt(category: .wildCard, prompt: "If You Play Fantasy Football, Based On Your Current Record: \n\nGive A Drink For Each Of Your Wins. \nTake A Drink For Each Of Your Losses", action: "1 Drink"),
+    GamePrompt(category: .nextPlay, prompt: "On The Next Play, Start Chugging When The Ball Is Snapped. \n\nYour Drink Must Be Finished Before The Play Clock Stops Or You Have To Do It Again.", action: "Finish Your Drink"),
+    GamePrompt(category: .stats, prompt: "Drink If The Score Is Within Five Points.", action: "3 Drinks"),
+    GamePrompt(category: .stats, prompt: "Drink If The Score Is Within Ten Points.", action: "2 Drinks"),
+    GamePrompt(category: .stats, prompt: "If The Score Is Tied", action: "Finish Your Drink"),
+    GamePrompt(category: .stats, prompt: "If The Combined Game Score Is Over 40 Points", action: "Finish Your Drink"),
+    GamePrompt(category: .stats, prompt: "If The Combined Game Score Is Over 30 Points", action: "3 Drinks"),
+    GamePrompt(category: .stats, prompt: "If The Combined Game Score Is Over 20 Points", action: "2 Drinks"),
+    GamePrompt(category: .stats, prompt: "Everyone Drink If The Current Game Is A Divisional Matchup", action: "2 Drinks"),
+    GamePrompt(category: .stats, prompt: "Give Out A Drink For Every Tight End Touchdown So Far. \n\nIf None, Take A Drink.", action: "1 Drink"),
+    GamePrompt(category: .stats, prompt: "Give Out A Drink For Every Wide Reciever Touchdown So Far. \n\nIf None, Take A Drink.", action: "1 Drink"),
+    GamePrompt(category: .stats, prompt: "Give Out A Drink For Every Running Back Touchdown So Far. \n\nIf None, Take A Drink.", action: "1 Drink"),
+    
 ]
 
 

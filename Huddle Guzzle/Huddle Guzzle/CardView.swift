@@ -49,6 +49,7 @@ struct CardView: View {
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width:180, height:180)
+                                    .shadow(radius: 6)
                                 //    .offset(y: -30)
                             }
                            else if gamePrompt.category == .stats {
@@ -56,6 +57,7 @@ struct CardView: View {
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width:100, height:100)
+                                    .shadow(radius: 6)
                              //       .offset(y: -30)
                             }
                             else if gamePrompt.category == .vote {
@@ -63,6 +65,7 @@ struct CardView: View {
                                      .resizable()
                                      .aspectRatio(contentMode: .fit)
                                      .frame(width:100, height:100)
+                                     .shadow(radius: 6)
                                  //    .offset(y: -30)
                              }
                             else if gamePrompt.category == .quiz {
@@ -70,6 +73,7 @@ struct CardView: View {
                                      .resizable()
                                      .aspectRatio(contentMode: .fit)
                                      .frame(width:90, height:90)
+                                     .shadow(radius: 6)
                                 //     .offset(y: -40)
                              }
                             else if gamePrompt.category == .wildCard {
@@ -77,6 +81,7 @@ struct CardView: View {
                                      .resizable()
                                      .aspectRatio(contentMode: .fit)
                                      .frame(width:180, height:180)
+                                     .shadow(radius: 6)
                                  //    .offset(y: -50)
                              }
                             // Prompt
