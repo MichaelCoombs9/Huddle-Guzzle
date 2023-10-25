@@ -23,6 +23,7 @@
 		4CB5E67D2AE694A900C40970 /* LilitaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CB5E67C2AE694A900C40970 /* LilitaOne-Regular.ttf */; };
 		4CB5E67E2AE694DA00C40970 /* LilitaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CB5E67C2AE694A900C40970 /* LilitaOne-Regular.ttf */; };
 		4CB5E67F2AE694DB00C40970 /* LilitaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CB5E67C2AE694A900C40970 /* LilitaOne-Regular.ttf */; };
+		4CECD4EE2AE9D87900B2E1DE /* WarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CECD4ED2AE9D87900B2E1DE /* WarningView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		4CB5E6762AE4B2DF00C40970 /* GamePrompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePrompt.swift; sourceTree = "<group>"; };
 		4CB5E67A2AE5E6A000C40970 /* Huddle-Guzzle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Huddle-Guzzle-Info.plist"; sourceTree = SOURCE_ROOT; };
 		4CB5E67C2AE694A900C40970 /* LilitaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LilitaOne-Regular.ttf"; sourceTree = "<group>"; };
+		4CECD4ED2AE9D87900B2E1DE /* WarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				4CB5E66E2AE3637100C40970 /* DetailView.swift */,
 				4CB5E6742AE4734900C40970 /* CardView.swift */,
 				4CB5E6722AE46D6D00C40970 /* GameView.swift */,
+				4CECD4ED2AE9D87900B2E1DE /* WarningView.swift */,
 				4CB5E6762AE4B2DF00C40970 /* GamePrompt.swift */,
 				4CB5E6702AE3935300C40970 /* PlayerView.swift */,
 				4CB5E6452AE3617B00C40970 /* Item.swift */,
@@ -297,6 +300,7 @@
 			files = (
 				4CB5E6752AE4734900C40970 /* CardView.swift in Sources */,
 				4CB5E6442AE3617B00C40970 /* ContentView.swift in Sources */,
+				4CECD4EE2AE9D87900B2E1DE /* WarningView.swift in Sources */,
 				4CB5E66F2AE3637100C40970 /* DetailView.swift in Sources */,
 				4CB5E6772AE4B2DF00C40970 /* GamePrompt.swift in Sources */,
 				4CB5E6462AE3617B00C40970 /* Item.swift in Sources */,

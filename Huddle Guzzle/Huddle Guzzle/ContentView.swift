@@ -15,7 +15,7 @@ struct ContentView: View {
     var body: some View {
         
         NavigationView {
-            NavigationLink(destination: DetailView().navigationBarBackButtonHidden()) {
+            NavigationLink(destination: WarningView().navigationBarBackButtonHidden()) {
                 
                 ZStack {
             LinearGradient(gradient: Gradient(colors: [
